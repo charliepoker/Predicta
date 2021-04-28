@@ -1,0 +1,135 @@
+.signup-form-screen {
+  display: flex;
+  overflow: hidden;
+}
+
+.signup-form-container {
+  width: 65%;
+}
+
+.arrow {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+
+.signup-form-header {
+  font-family: "Open Sans", sans-serif;
+  color: #24633d;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form-header p {
+  padding-top: 10px;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.form-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 58%;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: block;
+  color: #303030;
+  line-height: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+input {
+  width: 100%;
+  background: #eff0f7;
+  border-radius: 16px;
+  border: none;
+  height: 56px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.signup-form-footer p {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup-form-footer a {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #00c14d;
+}
+
+.signup-form-image-container {
+  position: relative;
+  width: 35%;
+}
+
+.signup-form-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.3;
+}
+
+.signup-form-image-container img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main-text {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  left: 20px;
+  top: 40px;
+  color: #fff;
+}
+
+.footer-text p {
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  right: 20px;
+  bottom: 20px;
+}

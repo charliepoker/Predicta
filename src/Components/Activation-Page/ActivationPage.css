@@ -1,0 +1,71 @@
+.activation-screen-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.activation-screen-content {
+  width: 65%;
+}
+
+.arrow {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+
+.activation-screen-text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.envelope{
+    
+}
+
+.activation-image-container {
+  position: relative;
+  width: 35%;
+}
+
+.activation-image-containerr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.3;
+}
+
+.activation-image-container img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main-text {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  left: 20px;
+  top: 40px;
+  color: #fff;
+}
+
+.footer-text p {
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  right: 20px;
+  bottom: 20px;
+}

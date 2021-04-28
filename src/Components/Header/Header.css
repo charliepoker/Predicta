@@ -1,0 +1,27 @@
+.header-container {
+  background: linear-gradient(236.07deg, #24633d 24.61%, #c5822c 98.64%);
+  height: 92vh;
+}
+
+.header-content {
+  position: absolute;
+  width: 534px;
+  height: 348px;
+  left: 122px;
+  top: 180px;
+}
+
+.header-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 28px;
+  line-height: 87px;
+  color: #fff;
+}
+
+.header-image {
+  position: absolute;
+  left: 330px;
+  top: -175px;
+}

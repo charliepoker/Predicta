@@ -1,0 +1,36 @@
+.signup-screen-container {
+  display: flex;
+}
+
+.carousel-container {
+  width: 65%;
+  height: 100%;
+}
+
+.signup-screen-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.arrow {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.signup-text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 3rem 0;
+}
+
+.signup-text p ~ p {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 16px;
+}
