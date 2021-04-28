@@ -19,8 +19,65 @@
   text-align: center;
 }
 
-.envelope{
-    
+.envelope {
+  color: #e09a3f;
+  font-size: 90px;
+}
+
+.first-p {
+  color: #24633d;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.second-p {
+  margin-top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #303030;
+}
+
+a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #00c14d;
+  text-decoration: none;
+}
+
+.forth-p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+.resend-btn {
+  margin-top: 30px;
+  background: #24633d;
+  border-radius: 8px;
+  height: 56px;
+  width: 60%;
+  color: #f7f7fc;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Open Sans";
 }
 
 .activation-image-container {

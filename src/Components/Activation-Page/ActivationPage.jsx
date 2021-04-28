@@ -15,12 +15,14 @@ function ActivationPage() {
             <span className="envelope">
               <i class="fas fa-envelope-open-text"></i>
             </span>
-            <p>Very your email address </p>
-            <p>A verification email has been sent to</p>
-            <p>
+            <p className="first-p">Very your email address </p>
+            <p className="second-p">A verification email has been sent to</p>
+            <p classname="third-p">
               <a href="group5@gmail.com">Group 5 financial services limited</a>.
             </p>
-            <p>please click on the link to verify your email</p>
+            <p className="forth-p">
+              please click on the link to verify your email
+            </p>
             <Button text="Resend Email" className="resend-btn" />
           </div>
         </div>
