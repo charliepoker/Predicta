@@ -2,6 +2,9 @@ import React from "react";
 import "./SignUpForm.css";
 import Button from "../Button/Button";
 import money from "../../assets/money.jpg";
+import { Link } from "react-router-dom";
+
+
 
 function SignUpForm() {
   return (
@@ -9,7 +12,9 @@ function SignUpForm() {
       <div className="signup-form-screen">
         <div className="signup-form-container">
           <span className="arrow">
-            <i class="fas fa-arrow-left"></i>
+            <Link to="signUpScreen">
+              <i class="fas fa-arrow-left"></i>
+            </Link>
           </span>
           <div className="signup-form-header">
             <h2>Create a free account</h2>
@@ -49,7 +54,9 @@ function SignUpForm() {
             <img src={money} alt="" />
           </div>
           <div className="main-text">
-            <h2>Reliable, <br/> Secure, <br/> Made for you.</h2>
+            <h2>
+              Reliable, <br /> Secure, <br /> Made for you.
+            </h2>
           </div>
 
           <div className="footer-text">

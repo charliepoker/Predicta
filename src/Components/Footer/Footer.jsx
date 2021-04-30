@@ -9,27 +9,15 @@ function Footer() {
         <div className="footer-container-content">
           <div className="footer-container-content-information">
             <h4>Information</h4>
-            <li>
-              <a href=""> About Us</a>
-            </li>
-            <li>
-              <a href="">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="">Terms of Use</a>
-            </li>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
           </div>
           <div className="footer-container-content-customer">
             <h4>Customer Care</h4>
-            <li>
-              <a href="">FAQs</a>
-            </li>
-            <li>
-              <a href="">Contact Us</a>
-            </li>
-            <li>
-              <a href="">Customer Assistance</a>
-            </li>
+            <li>FAQs</li>
+            <li>Contact Us</li>
+            <li>Customer Assistance</li>
           </div>
           <div className="footer-container-content-newsletter">
             <h4>Newsletter</h4>

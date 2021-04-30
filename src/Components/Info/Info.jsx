@@ -2,7 +2,7 @@ import React from "react";
 import './Info.css'
 import DataPrediction from "../../assets/data-prediction.svg";
 import DataAnalysis from "../../assets/data-analysis.svg";
-import DataVisualization from "../../assets/data-visualization.svg";
+import DataVisualization from "../../assets/data-visualization1.svg";
 
 
 function Info() {

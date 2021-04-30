@@ -8,22 +8,24 @@ function Insight() {
       <div className="insight-container">
         <div className="insight-content-text">
           <h3>INSIGHTS</h3>
-          <h5>
-            Using K nearest neighbors for prediction of Customer loan default
-          </h5>
-          <p>
-            Systems tries to predict the Sub-Grade based on the FICO score
-            provided.
-          </p>
-          <li>
-            One would expect the relation to be linear between FICO score and
-            sub grade but that is not exactly the case
-          </li>
-          <li>
-            From the subgrade predicited we get the interest Rate for the
-            applicant.
-          </li>
+          <h5>Using Predicta for prediction of Customer loan default</h5>
+          <ul>
+            <li>
+              Systems tries to predict the Sub-Grade based on the FICO score
+              provided.
+            </li>
+            <li>
+              A report would be displayed on the dashboard showingpayment
+              history of the client
+            </li>
+            <li>
+              From the report, you decide if the client is eligble for a loan or
+              not.
+            </li>
+            <li>Simple, safe and reliable pediction</li>
+          </ul>
         </div>
+
         <div className="insight-content-infograph">
           <img src={Infograph} alt="" />
         </div>

@@ -2,28 +2,36 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/Logo.png";
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-function Navbar(props) {
+function Navbar() {
   return (
     <>
       <div className="nav-container">
         <div className="nav-logo">
-          <img src={logo} alt="" height="25px" />
+          <img src={logo} alt="" height="36.39px" Width="151.16px" />
         </div>
-        <div className="nav-link">
+
+        <ul className="nav-link">
           <li>
-            <a href="">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <a href="">INSIGHT</a>
+            <Link to="/">INSIGHT</Link>
           </li>
           <li>
-            <a href="">CONTACT</a>
+            <Link to="/">CONTACT</Link>
           </li>
-        </div>
+        </ul>
+
         <div className="nav-btn">
-          <Button className="btn-login" text="LOGIN" />
-          <Button className="btn-signup" text="SIGN UP" />
+          <Link to="login">
+            <Button className="btn-login" text="LOGIN" />
+          </Link>
+          <Link to="signUpScreen">
+            <Button className="btn-signup" text="SIGN UP" />
+          </Link>
         </div>
       </div>
     </>
