@@ -79,3 +79,19 @@
   font-style: normal;
   font-weight: 700;
 }
+
+.analysis-form-btn {
+  background: #24633d;
+  border-radius: 8px;
+  width: 100%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  padding: 10px 0;
+  border: none;
+  margin-top: 20px;
+}
