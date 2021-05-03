@@ -3,8 +3,20 @@ import "./Login.css";
 import Button from "../Button/Button";
 import money from "../../assets/money.jpg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  function handleEmail(e) {
+    setEmail(e.target.value);
+  }
+
+  function handlePassword(e) {
+    setPassword(e.target.value);
+  }
+
   return (
     <>
       <div className="login-screen-container">
@@ -20,11 +32,14 @@ function Login() {
           <div className="form-container">
             <form action="" className="form">
               <div className="email-address form-control">
-                <label htmlFor="">Email Address</label>
+                <label htmlFor="email">Email Address</label>
                 <input
                   className="input"
                   type="text"
                   placeholder="Email Address"
+                  name="email"
+                  value={email}
+                  onChange={handleEmail}
                 />
               </div>
               <div className="password form-control">
@@ -33,6 +48,9 @@ function Login() {
                   className="input"
                   type="password"
                   placeholder="password"
+                  name="password"
+                  value={password}
+                  onChange={handlePassword}
                 />
               </div>
               <Button text="Sign in your account" className="login" />
