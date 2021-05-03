@@ -37,12 +37,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
-label {
+.form-control label {
   display: block;
   color: #303030;
   line-height: 22px;
   font-weight: 600;
   margin-bottom: 5px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -73,6 +74,7 @@ label {
   font-size: 14px;
   color: #303030;
   text-align: center;
+  text-decoration: underline;
 }
 
 .login-form-image-container {
