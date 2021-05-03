@@ -3,10 +3,29 @@ import "./SignUpForm.css";
 import Button from "../Button/Button";
 import money from "../../assets/money.jpg";
 import { Link } from "react-router-dom";
-
-
+import { useState } from "react";
 
 function SignUpForm() {
+  const [fullName, setFullName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  function handleFullName(e) {
+    setFullName(e.target.value);
+  }
+
+  function handleCompanyName(e) {
+    setCompanyName(e.target.value);
+  }
+
+  function handleEmail(e) {
+    setEmail(e.target.value);
+  }
+
+  function handlePassword(e) {
+    setPassword(e.target.value);
+  }
   return (
     <>
       <div className="signup-form-screen">
@@ -23,35 +42,47 @@ function SignUpForm() {
           <div className="form-container">
             <form action="" className="form">
               <div className="fullname form-control">
-                <label htmlFor="">Full name</label>
+                <label htmlFor="fullname">Full name</label>
                 <input
                   className="signup-input"
                   type="text"
                   placeholder="full name"
+                  name="fullname"
+                  value={fullName}
+                  onChange={handleFullName}
                 />
               </div>
               <div className="company-name form-control">
-                <label htmlFor="">Company name</label>
+                <label htmlFor="company name">Company name</label>
                 <input
                   className="signup-input"
                   type="text"
                   placeholder="Name of Organization"
+                  name="company name"
+                  value={companyName}
+                  onChange={handleCompanyName}
                 />
               </div>
               <div className="email-address form-control">
-                <label htmlFor="">Email Address</label>
+                <label htmlFor="email">Email Address</label>
                 <input
                   type="text"
                   className="signup-input"
                   placeholder="Email Address"
+                  name="email"
+                  value={email}
+                  onChange={handleEmail}
                 />
               </div>
               <div className="password form-control">
-                <label htmlFor="">Password</label>
+                <label htmlFor="password">Password</label>
                 <input
                   type="password"
                   className="signup-input"
                   placeholder="password"
+                  name="password"
+                  value={password}
+                  onChange={handlePassword}
                 />
               </div>
               <Button text="Create account" className="signup" />
