@@ -4,7 +4,7 @@
 .footer-p {
   list-style-type: none;
   font-size: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 300;
 }
 .footer-container {
@@ -84,6 +84,6 @@ hr {
 }
 
 .footer-copyright-content p {
-  margin-left: 18rem;
+  margin-left: 20rem;
   font-size: 14px;
 }

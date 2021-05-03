@@ -1,8 +1,14 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../assets/Logo.png";
+import { useState } from "react";
 
 function Footer() {
+  const [email, setEmail] = useState("");
+
+  function handleEmail(e) {
+    setEmail(e.target.value);
+  }
   return (
     <>
       <div className="footer-container">
@@ -28,6 +34,9 @@ function Footer() {
                 className="footer-form-input"
                 type="text"
                 placeholder="Enter your email"
+                name="email"
+                value={email}
+                onChange={handleEmail}
               />
               <button className="signup-btn">
                 <i class="fas fa-chevron-right"></i>
