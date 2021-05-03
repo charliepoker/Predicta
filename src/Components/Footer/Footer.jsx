@@ -21,10 +21,14 @@ function Footer() {
           </div>
           <div className="footer-container-content-newsletter">
             <h4>Newsletter</h4>
-            <p>Sign Up for update about our platform</p>
+            <p className="footer-p">Sign Up for update about our platform</p>
 
-            <form action="">
-              <input type="text" placeholder="Enter your email" />
+            <form action="" className="footer-form">
+              <input
+                className="footer-form-input"
+                type="text"
+                placeholder="Enter your email"
+              />
               <button className="signup-btn">
                 <i class="fas fa-chevron-right"></i>
               </button>
@@ -32,7 +36,7 @@ function Footer() {
           </div>
           <div className="footer-container-content-connect">
             <h4>Connect</h4>
-            <p>follow us on:</p>
+            <p className="footer-p"> follow us on:</p>
             <div className="social-icons">
               <div className="social social-icons-twitter">
                 <i class="fab fa-twitter"></i>
@@ -52,7 +56,9 @@ function Footer() {
             <div className="nav-logo">
               <img src={logo} alt="" height="25px" />
             </div>
-            <p>Copyright 2021 Predictz. All rights reserved</p>
+            <p className="footer-copyright-content-para">
+              Copyright 2021 Predictz. All rights reserved
+            </p>
           </div>
         </div>
       </div>

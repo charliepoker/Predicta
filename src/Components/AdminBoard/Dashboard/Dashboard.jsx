@@ -7,10 +7,14 @@ import DashBoardPage from "../../AdminBoard/Dashboard/DashBoardPage";
 function Dashboard() {
   return (
     <>
-      <Navbar />
-      <div className="dashboard-container">
-        <SideMenu />
-        <DashBoardPage />
+      {/* <Navbar /> */}
+      <div className="dashboard-container-main">
+        <div className="predicta-sidebar">
+          <SideMenu />
+        </div>
+        <div className="predicta-main">
+          <DashBoardPage />
+        </div>
       </div>
     </>
   );

@@ -24,26 +24,42 @@ function SignUpForm() {
             <form action="" className="form">
               <div className="fullname form-control">
                 <label htmlFor="">Full name</label>
-                <input type="text" placeholder="full name" />
+                <input
+                  className="signup-input"
+                  type="text"
+                  placeholder="full name"
+                />
               </div>
               <div className="company-name form-control">
                 <label htmlFor="">Company name</label>
-                <input type="text" placeholder="Name of Organization" />
+                <input
+                  className="signup-input"
+                  type="text"
+                  placeholder="Name of Organization"
+                />
               </div>
               <div className="email-address form-control">
                 <label htmlFor="">Email Address</label>
-                <input type="text" placeholder="Email Address" />
+                <input
+                  type="text"
+                  className="signup-input"
+                  placeholder="Email Address"
+                />
               </div>
               <div className="password form-control">
                 <label htmlFor="">Password</label>
-                <input type="password" placeholder="password" />
+                <input
+                  type="password"
+                  className="signup-input"
+                  placeholder="password"
+                />
               </div>
               <Button text="Create account" className="signup" />
             </form>
           </div>
           <div className="signup-form-footer">
             <p>
-              By creating an account, you are accepting or{" "}
+              By creating an account, you are accepting or
               <a href=""> Terms </a>
               and <a href=""> Privacy Policy.</a>
             </p>

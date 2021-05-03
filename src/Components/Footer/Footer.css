@@ -1,10 +1,10 @@
 .footer-container li {
   margin-bottom: 10px;
 }
-p {
+.footer-p {
   list-style-type: none;
   font-size: 12px;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
   font-weight: 300;
 }
 .footer-container {
@@ -26,7 +26,7 @@ h4 {
   margin-bottom: 1.5rem;
 }
 
-.footer-container-content-newsletter input {
+.footer-form-input {
   border: none;
   height: 30px;
   width: 200px;
@@ -37,7 +37,6 @@ h4 {
 
 .footer-container-content-newsletter input::placeholder {
   color: #9a9a9a;
-  
 }
 
 .signup-btn {
@@ -86,5 +85,5 @@ hr {
 
 .footer-copyright-content p {
   margin-left: 18rem;
-  margin-top: 0.8rem;
+  font-size: 14px;
 }

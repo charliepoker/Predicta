@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-form {
+.form {
   width: 58%;
   padding: 20px;
   font-family: "Open Sans", sans-serif;
@@ -51,8 +51,7 @@ label {
   margin-bottom: 5px;
   font-family: "Open Sans", sans-serif;
 }
-
-input {
+.signup-input {
   width: 100%;
   background: #eff0f7;
   border-radius: 16px;
