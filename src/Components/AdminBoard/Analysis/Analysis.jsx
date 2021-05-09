@@ -19,9 +19,9 @@ function Analysis() {
               <label htmlFor="">Education</label>
 
               <select name="">
-                {/* <option disabled selected>
+                <option disabled selected hidden>
                   Select Education
-                </option> */}
+                </option>
                 <option value="1">Graduates school</option>
                 <option value="2">University</option>
                 <option value="3">High School</option>
@@ -33,23 +33,23 @@ function Analysis() {
             <div className="marriage">
               <label htmlFor="">Marriage</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select marriage status
+                </option>
                 <option value="1">Married</option>
-                <option selected value="2">
-                  Single
-                </option>
-                <option selected value="3">
-                  Others
-                </option>
+                <option value="2">Single</option>
+                <option value="3">Others</option>
               </select>
               <br />
             </div>
             <div className="sex">
               <label htmlFor="">Sex</label>
               <select id="" name="">
-                <option value="1">Male</option>
-                <option selected value="2">
-                  Female
+                <option disabled selected hidden>
+                  Select Sex
                 </option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
               </select>
             </div>
           </div>
@@ -68,35 +68,20 @@ function Analysis() {
             <div className="april">
               <label htmlFor="">April(2005)</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select Status
+                </option>
                 <option value="-1">Paid duly</option>
-                <option selected value="0">
-                  No Delay
-                </option>
-                <option selected value="1">
-                  Payment delayed for one month
-                </option>
-                <option selected value="2">
-                  Payment delayed for two months
-                </option>
-                <option selected value="3">
-                  Payment delayed for three months
-                </option>
-                <option selected value="4">
-                  Payment delayed for four months
-                </option>
-                <option selected value="5">
-                  Payment delayed for five months
-                </option>
-                <option selected value="6">
-                  Payment delayed for six months
-                </option>
-                <option selected value="7">
-                  Payment delayed for seven month
-                </option>
-                <option selected value="8">
-                  Payment delayed for eight month
-                </option>
-                <option selected value="9">
+                <option value="0">No Delay</option>
+                <option value="1">Payment delayed for one month</option>
+                <option value="2">Payment delayed for two months</option>
+                <option value="3">Payment delayed for three months</option>
+                <option value="4">Payment delayed for four months</option>
+                <option value="5">Payment delayed for five months</option>
+                <option value="6">Payment delayed for six months</option>
+                <option value="7">Payment delayed for seven month</option>
+                <option value="8">Payment delayed for eight month</option>
+                <option value="9">
                   Payment delayed for nine or more months
                 </option>
               </select>
@@ -104,35 +89,20 @@ function Analysis() {
             <div className="may">
               <label htmlFor="">May(2005)</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select Status
+                </option>
                 <option value="-1">Paid duly</option>
-                <option selected value="0">
-                  No Delay
-                </option>
-                <option selected value="1">
-                  Payment delayed for one month
-                </option>
-                <option selected value="2">
-                  Payment delayed for two months
-                </option>
-                <option selected value="3">
-                  Payment delayed for three months
-                </option>
-                <option selected value="4">
-                  Payment delayed for four months
-                </option>
-                <option selected value="5">
-                  Payment delayed for five months
-                </option>
-                <option selected value="6">
-                  Payment delayed for six months
-                </option>
-                <option selected value="7">
-                  Payment delayed for seven month
-                </option>
-                <option selected value="8">
-                  Payment delayed for eight month
-                </option>
-                <option selected value="9">
+                <option value="0">No Delay</option>
+                <option value="1">Payment delayed for one month</option>
+                <option value="2">Payment delayed for two months</option>
+                <option value="3">Payment delayed for three months</option>
+                <option value="4">Payment delayed for four months</option>
+                <option value="5">Payment delayed for five months</option>
+                <option value="6">Payment delayed for six months</option>
+                <option value="7">Payment delayed for seven month</option>
+                <option value="8">Payment delayed for eight month</option>
+                <option value="9">
                   Payment delayed for nine or more months
                 </option>
               </select>
@@ -142,35 +112,20 @@ function Analysis() {
             <div className="june">
               <label htmlFor="">June(2005)</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select Status
+                </option>
                 <option value="-1">Paid duly</option>
-                <option selected value="0">
-                  No Delay
-                </option>
-                <option selected value="1">
-                  Payment delayed for one month
-                </option>
-                <option selected value="2">
-                  Payment delayed for two months
-                </option>
-                <option selected value="3">
-                  Payment delayed for three months
-                </option>
-                <option selected value="4">
-                  Payment delayed for four months
-                </option>
-                <option selected value="5">
-                  Payment delayed for five months
-                </option>
-                <option selected value="6">
-                  Payment delayed for six months
-                </option>
-                <option selected value="7">
-                  Payment delayed for seven month
-                </option>
-                <option selected value="8">
-                  Payment delayed for eight month
-                </option>
-                <option selected value="9">
+                <option value="0">No Delay</option>
+                <option value="1">Payment delayed for one month</option>
+                <option value="2">Payment delayed for two months</option>
+                <option value="3">Payment delayed for three months</option>
+                <option value="4">Payment delayed for four months</option>
+                <option value="5">Payment delayed for five months</option>
+                <option value="6">Payment delayed for six months</option>
+                <option value="7">Payment delayed for seven month</option>
+                <option value="8">Payment delayed for eight month</option>
+                <option value="9">
                   Payment delayed for nine or more months
                 </option>
               </select>
@@ -178,35 +133,20 @@ function Analysis() {
             <div className="july">
               <label htmlFor="">July(2005)</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select Status
+                </option>
                 <option value="-1">Paid duly</option>
-                <option selected value="0">
-                  No Delay
-                </option>
-                <option selected value="1">
-                  Payment delayed for one month
-                </option>
-                <option selected value="2">
-                  Payment delayed for two months
-                </option>
-                <option selected value="3">
-                  Payment delayed for three months
-                </option>
-                <option selected value="4">
-                  Payment delayed for four months
-                </option>
-                <option selected value="5">
-                  Payment delayed for five months
-                </option>
-                <option selected value="6">
-                  Payment delayed for six months
-                </option>
-                <option selected value="7">
-                  Payment delayed for seven month
-                </option>
-                <option selected value="8">
-                  Payment delayed for eight month
-                </option>
-                <option selected value="9">
+                <option value="0">No Delay</option>
+                <option value="1">Payment delayed for one month</option>
+                <option value="2">Payment delayed for two months</option>
+                <option value="3">Payment delayed for three months</option>
+                <option value="4">Payment delayed for four months</option>
+                <option value="5">Payment delayed for five months</option>
+                <option value="6">Payment delayed for six months</option>
+                <option value="7">Payment delayed for seven month</option>
+                <option value="8">Payment delayed for eight month</option>
+                <option value="9">
                   Payment delayed for nine or more months
                 </option>
               </select>
@@ -216,35 +156,20 @@ function Analysis() {
             <div className="august">
               <label htmlFor="">August(2005)</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select Status
+                </option>
                 <option value="-1">Paid duly</option>
-                <option selected value="0">
-                  No Delay
-                </option>
-                <option selected value="1">
-                  Payment delayed for one month
-                </option>
-                <option selected value="2">
-                  Payment delayed for two months
-                </option>
-                <option selected value="3">
-                  Payment delayed for three months
-                </option>
-                <option selected value="4">
-                  Payment delayed for four months
-                </option>
-                <option selected value="5">
-                  Payment delayed for five months
-                </option>
-                <option selected value="6">
-                  Payment delayed for six months
-                </option>
-                <option selected value="7">
-                  Payment delayed for seven month
-                </option>
-                <option selected value="8">
-                  Payment delayed for eight month
-                </option>
-                <option selected value="9">
+                <option value="0">No Delay</option>
+                <option value="1">Payment delayed for one month</option>
+                <option value="2">Payment delayed for two months</option>
+                <option value="3">Payment delayed for three months</option>
+                <option value="4">Payment delayed for four months</option>
+                <option value="5">Payment delayed for five months</option>
+                <option value="6">Payment delayed for six months</option>
+                <option value="7">Payment delayed for seven month</option>
+                <option value="8">Payment delayed for eight month</option>
+                <option value="9">
                   Payment delayed for nine or more months
                 </option>
               </select>
@@ -252,35 +177,20 @@ function Analysis() {
             <div className="september">
               <label htmlFor="">September(2005)</label>
               <select id="" name="">
+                <option disabled selected hidden>
+                  Select Status
+                </option>
                 <option value="-1">Paid duly</option>
-                <option selected value="0">
-                  No Delay
-                </option>
-                <option selected value="1">
-                  Payment delayed for one month
-                </option>
-                <option selected value="2">
-                  Payment delayed for two months
-                </option>
-                <option selected value="3">
-                  Payment delayed for three months
-                </option>
-                <option selected value="4">
-                  Payment delayed for four months
-                </option>
-                <option selected value="5">
-                  Payment delayed for five months
-                </option>
-                <option selected value="6">
-                  Payment delayed for six months
-                </option>
-                <option selected value="7">
-                  Payment delayed for seven month
-                </option>
-                <option selected value="8">
-                  Payment delayed for eight month
-                </option>
-                <option selected value="9">
+                <option value="0">No Delay</option>
+                <option value="1">Payment delayed for one month</option>
+                <option value="2">Payment delayed for two months</option>
+                <option value="3">Payment delayed for three months</option>
+                <option value="4">Payment delayed for four months</option>
+                <option value="5">Payment delayed for five months</option>
+                <option value="6">Payment delayed for six months</option>
+                <option value="7">Payment delayed for seven month</option>
+                <option value="8">Payment delayed for eight month</option>
+                <option value="9">
                   Payment delayed for nine or more months
                 </option>
               </select>
