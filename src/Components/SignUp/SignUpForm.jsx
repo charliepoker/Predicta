@@ -6,31 +6,30 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function SignUpForm() {
-  const [fullName, setFullName] = useState("");
-  const [companyName, setCompanyName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [fullName, setFullName] = useState("");
+  // const [companyName, setCompanyName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
 
-  function handleFullName(e) {
-    setFullName(e.target.value);
+  const [formData, setFormData] = useState({
+    fullName: "",
+    companyName: "",
+    email: "",
+    password: "",
+  });
+
+  function handleChange(e) {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   }
 
-  function handleCompanyName(e) {
-    setCompanyName(e.target.value);
-  }
-
-  function handleEmail(e) {
-    setEmail(e.target.value);
-  }
-
-  function handlePassword(e) {
-    setPassword(e.target.value);
-  }
   return (
     <>
       <div className="signup-form-screen">
         <div className="signup-form-container">
-          <span className="arrow">
+          <span className="signup-arrow">
             <Link to="signUpScreen">
               <i class="fas fa-arrow-left"></i>
             </Link>
@@ -47,9 +46,9 @@ function SignUpForm() {
                   className="signup-input"
                   type="text"
                   placeholder="full name"
-                  name="fullname"
-                  value={fullName}
-                  onChange={handleFullName}
+                  name="fullName"
+                  value={formData.fullName}
+                  onChange={handleChange}
                 />
               </div>
               <div className="company-name form-control">
@@ -58,9 +57,9 @@ function SignUpForm() {
                   className="signup-input"
                   type="text"
                   placeholder="Name of Organization"
-                  name="company name"
-                  value={companyName}
-                  onChange={handleCompanyName}
+                  name="companyName"
+                  value={formData.companyName}
+                  onChange={handleChange}
                 />
               </div>
               <div className="email-address form-control">
@@ -70,8 +69,8 @@ function SignUpForm() {
                   className="signup-input"
                   placeholder="Email Address"
                   name="email"
-                  value={email}
-                  onChange={handleEmail}
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
               <div className="password form-control">
@@ -81,8 +80,8 @@ function SignUpForm() {
                   className="signup-input"
                   placeholder="password"
                   name="password"
-                  value={password}
-                  onChange={handlePassword}
+                  value={formData.password}
+                  onChange={handleChange}
                 />
               </div>
               <Button text="Create account" className="signup" />
