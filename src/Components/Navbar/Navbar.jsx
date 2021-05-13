@@ -2,8 +2,9 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/Logo.png";
 import Button from "../Button/Button";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Navbar() {
   return (
@@ -15,13 +16,13 @@ function Navbar() {
 
         <ul className="nav-link">
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/#home">HOME</Link>
           </li>
           <li>
-            <Link to="/">INSIGHT</Link>
+            <Link to="/#insight">INSIGHT</Link>
           </li>
           <li>
-            <Link to="/">CONTACT</Link>
+            <Link to="/#contact">CONTACT</Link>
           </li>
         </ul>
 

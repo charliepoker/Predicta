@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 import money from "../../assets/money.jpg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import axios from "axios";
 
 function SignUpForm() {
   // const [fullName, setFullName] = useState("");
@@ -25,13 +26,22 @@ function SignUpForm() {
     });
   }
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    const registeredUser = formData;
+
+    axios.post("http://localhost:4000/signup", registeredUser).then((res) => {
+      console.log(res.data);
+    });
+  }
+
   return (
     <>
       <div className="signup-form-screen">
         <div className="signup-form-container">
           <span className="signup-arrow">
             <Link to="signUpScreen">
-              <i class="fas fa-arrow-left"></i>
+              <i className="fas fa-arrow-left"></i>
             </Link>
           </span>
           <div className="signup-form-header">
@@ -39,7 +49,7 @@ function SignUpForm() {
             <p>Register your account with us to get started</p>
           </div>
           <div className="form-container">
-            <form action="" className="form">
+            <form action="" className="form" onSubmit={handleSubmit}>
               <div className="fullname form-control">
                 <label htmlFor="fullname">Full name</label>
                 <input

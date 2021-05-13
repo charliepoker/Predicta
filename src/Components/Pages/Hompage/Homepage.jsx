@@ -9,10 +9,16 @@ function Homepage() {
   return (
     <>
       <NavBar />
-      <Header />
+      <div id="home">
+        <Header />
+      </div>
       <Info />
-      <Insight />
-      <Footer />
+      <div id="insight">
+        <Insight />
+      </div>
+      <div id="contact">
+        <Footer />
+      </div>
     </>
   );
 }

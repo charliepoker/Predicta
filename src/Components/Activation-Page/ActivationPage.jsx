@@ -15,7 +15,7 @@ function ActivationPage() {
             <span className="envelope">
               <i class="fas fa-envelope-open-text"></i>
             </span>
-            <p className="first-p">Very your email address </p>
+            <p className="first-p">Verify your email address </p>
             <p className="second-p">A verification email has been sent to</p>
             <p classname="third-p">
               <a href="group5@gmail.com">Group 5 financial services limited</a>.

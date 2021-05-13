@@ -17,7 +17,7 @@ function SideMenu() {
               <p>Dashboard</p>
             </div>
           </Link>
-          <Link to="/Analysis">
+          <Link to="Dashboard/Analysis">
             <div className="side-menu-analysis menu-item">
               <img src={AnalysisIcon} alt="analysis icon" />
               <p>Analysis</p>

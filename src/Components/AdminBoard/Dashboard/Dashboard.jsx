@@ -12,9 +12,9 @@ function Dashboard() {
         <div className="predicta-sidebar">
           <SideMenu />
         </div>
-        <div className="predicta-main">
+        {/* <div className="predicta-main">
           <DashBoardPage />
-        </div>
+        </div> */}
       </div>
     </>
   );
