@@ -1,10 +1,11 @@
 import React from "react";
 import "./Analysis.css";
 import Button from "../../Button/Button";
+import DashboardLayout from '../../Layout/DashboardLayout'
 
 function Analysis() {
   return (
-    <>
+    <DashboardLayout>
       <div className="analysis-form-container">
         <h2>CUSTOMER APPLICATION FORM</h2>
         <p>Personal Information</p>
@@ -328,7 +329,7 @@ function Analysis() {
           <Button text="PREDICT" className="analysis-form-btn" />
         </form>
       </div>
-    </>
+    </DashboardLayout>
   );
 }
 
