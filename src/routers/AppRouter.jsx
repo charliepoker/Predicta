@@ -29,7 +29,7 @@ function AppRouter() {
           <Route path="/login" component={Login} />
           <Route path="/SignUpScreen" component={SignUpScreen} />
           <Route path="/SignUpForm" component={SignUpForm} />
-          {/* <Route path="/Dashboard/Analysis" component={Analysis} /> */}
+          <Route path="/Dashboard/Analysis" component={Analysis} />
         </Switch>
       </div>
     </Router>
