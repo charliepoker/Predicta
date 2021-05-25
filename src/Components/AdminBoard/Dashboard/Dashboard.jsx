@@ -13,5 +13,4 @@ function Dashboard() {
     </DashboardLayout>
   );
 }
-
 export default Dashboard;

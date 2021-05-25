@@ -30,9 +30,11 @@ function SignUpForm() {
     e.preventDefault();
     const registeredUser = formData;
 
-    axios.post("http://localhost:4000/signup", registeredUser).then((res) => {
-      console.log(res.data);
-    });
+    axios
+      .post("http://localhost:4000/api/auth/register", registeredUser)
+      .then((res) => {
+        console.log(res.data);
+      });
   }
 
   return (
