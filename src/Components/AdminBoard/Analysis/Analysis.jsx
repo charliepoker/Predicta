@@ -72,7 +72,7 @@ function Analysis() {
       setHasError(true);
     } else {
       axios
-        .post("http://localhost:4000/predict", formFields)
+        .post("https://predecta.herokuapp.com/predict", formFields)
         .then((res) => {
           alert(res.data.data);
         })
